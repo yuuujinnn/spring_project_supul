@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.container {
+	margin: 0px auto;
+}
+
+
+thead tr:first-child {
+	background-color: rgba(168, 141, 110, 0.7);
+	font-size: 17px;
+
+}
+
+
+tbody a{
+	margin: 0 4px;
+}
+
+
+.button {
+	text-align: right;
+	margin-top: 20px;
+}
+
+.btn {
+	width: 150px;
+	height: 50px;
+	background-color: #f3e7db;
+	border-radius: 5px;
+	border: none;
+	color: #3f5856;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.page a:hover{
+	background-color: snow;
+}
+
+.page a:last-child{
+	margin-right: 90px;
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.container {
+	margin: 0px auto;
+}
+
+
+tr:first-child {
+	background-color: rgba(168, 141, 110, 0.7);
+	font-size: 17px;
+
+}
+
+
+tbody a{
+	margin: 0 4px;
+}
+
+.page{
+	text-align: right;
+}
+
+.page a{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px;
+	margin: 10px;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #f3e7db;
+}
+
+.page a:hover{
+	background-color: snow;
+}
+
+.page a:last-child{
+	margin-right: 90px;
+}

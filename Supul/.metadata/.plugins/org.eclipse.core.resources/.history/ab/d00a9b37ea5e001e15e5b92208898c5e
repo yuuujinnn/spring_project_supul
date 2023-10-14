@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.container {
+	width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px 40px;
+   
+    border-radius: 5px;
+}
+
+
+
+table{
+	margin: 0 auto;
+}
+
+table,  td {
+	color: #f3e7db;
+
+}
+table th {
+	
+    padding: 10px;
+}
+
+table td {
+    padding: 10px;
+}
+
+#userinfo tr td:first-child{
+	min-width: 100px;
+	text-align: right;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #f3e7db;
+}
+
+button {
+	border-radius: 5px;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+	font-size: 16px;
+	background-color: #f3e7db;
+}
+
+button:hover {
+	background-color: #eddecf;
+}
+
+#used td{
+	text-align: center;
+}

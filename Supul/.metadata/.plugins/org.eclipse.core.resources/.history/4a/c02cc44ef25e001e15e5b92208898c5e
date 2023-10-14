@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+.null{
+	text-align: center;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-left: 150px;
+	color: #f3e7db;
+}
+
+h3 {
+	font-size: 2rem;
+	color: #f3e7db;
+}
+
+.t1 table {
+	margin: 30px auto;
+	max-width: 600px;
+	width: 100%;
+	border-collapse: collapse;
+	color: #f3e7db;
+}
+
+.t1 td {
+	border: 1px solid rgba(243, 231, 219, 0.5);
+	padding: 10px;
+}
+
+
+.button-container {
+	text-align: right;
+	margin-top: 10px;
+}
+
+button {
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	border: 1px solid rgba(243, 231, 219, 0.5);
+	color: #f3e7db;
+    background-color: rgb(34, 36, 28);
+
+}
+
+button:hover{
+	/*background-color: rgba(247, 173, 74, 1);*/
+	background-color: rgb(245, 183, 67);
+}
+
+
+table tr:nth-child(-n+6) td:first-child{
+	text-align: right;
+	width: 120px;
+	
+}
+
+table tr:nth-child(-n+6) td:nth-child(2){
+	padding-left: 20px;
+	letter-spacing: 2px;
+}
+
+
+.t1{
+	border-bottom: 1px solid #444;
+}
+
+.t2s{
+	width: 1100px;
+	margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; /* 필요한 만큼 줄 바꿈 */
+    justify-content: space-between; /* 양쪽 여백을 동일하게 설정 */
+    gap: 10px;
+}
+
+.t2 table{
+	width: 360px;
+	text-align: center;
+	border-collapse: collapse;
+	color: #f3e7db;
+}
+
+
+.t2 tr:nth-child(-n+6) td:first-child{
+	text-align: right;
+	width: 100px;
+	
+}
+
+.t2 td{
+	border: 1px solid rgba(84, 68, 50, 0.6);
+	padding: 10px;
+	color: rgb(192, 192, 192);
+	opacity: 0.7;
+}

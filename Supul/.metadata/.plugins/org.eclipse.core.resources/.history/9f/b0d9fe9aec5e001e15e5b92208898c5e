@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.container {
+	margin: 20px auto;
+	width: 1000px;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin: 30px 50px;
+	font-weight: 600;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	color: #3f5856;
+}
+
+table {
+	margin: 0px auto;
+	width: 85%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table:nth-of-type(2) td{
+	background-color: #ddd;
+}
+
+th,
+td {
+	border-collapse: collapse;
+	border: 1px solid #555;
+	padding: 10px;
+}
+
+th {
+	background-color: #b9926e;
+}
+
+td {
+	background-color: #fff;
+}
+
+tbody a{
+	margin: 0 4px;
+}
+
+.newcoupon{
+	text-align: right;
+	margin: 40px 0;
+}
+
+.newcoupon a{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px;
+	margin: 10px;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #f3e7db;
+}
+
+.newcoupon a:hover{
+	background-color: snow;
+}
+
+.newcoupon a:last-child{
+	margin-right: 90px;
+	
+}

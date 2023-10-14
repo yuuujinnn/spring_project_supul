@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/* 제목 스타일 */
+h2 {
+	margin: 50px;
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 4px solid #3f5856;
+	color: #3f5856;
+}
+
+/* select 스타일 */
+select {
+	padding: 5px;
+	font-size: 16px;
+}
+
+/* 테이블 스타일 */
+table {
+	max-width: 1000px;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+table,
+th,
+td {
+	border: 1px solid #ccc;
+}
+
+th,
+td {
+	padding: 10px;
+	text-align: center;
+	line-height: 1.5em;
+	
+}
+
+th {
+	background-color: #000;
+	color: #f3e7db;;
+}
+
+tr {
+	background-color: #fff;
+}
+
+.page{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.page .active a{
+	background: #333;
+	color: #fff;
+}
+
+.page-link {
+	text-decoration: none;
+	padding: 4px 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	color: #333;
+	background-color: #f3e7db;;
+}
+
+.page-link:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.page{text-align: center;}
+
+.select {
+	width: 100%;
+	max-width: 1000px;
+	padding: 20px 0;
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+.select label{
+	font-size: 16px;
+	color: #f3e7db;
+}
+
+.select input{
+	font-size: 16px;
+	padding: 3px;
+}
+
+.select button{height: 27px;}
+
+button{
+	font-weight: bold;
+	background-color: #f3e7db;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #e2d0b3;
+}
+
+.container a{
+/*	color: #00f;
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	color: #333;
+	background-color: #f3e7db;;*/
+}
+
+.reg{
+	padding-right: 100px;
+	margin-top: 20px;
+	text-align: right;
+}
+
+.reg a{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #f3e7db;
+}

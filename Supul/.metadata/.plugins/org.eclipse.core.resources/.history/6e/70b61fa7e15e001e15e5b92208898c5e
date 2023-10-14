@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.container {
+	margin: 0px auto;
+}
+
+
+thead tr:first-child {
+	background-color: #f3e7db;
+	font-size: 17px;
+
+}
+
+table td{
+	color: #f3e7db;
+}
+
+tbody a{
+	margin: 0 4px;
+}
+
+
+.button {
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 40px;
+	
+}
+
+.btn {
+	width: 150px;
+	height: 50px;
+	background-color: #f3e7db;
+	border-radius: 5px;
+	border: none;
+	color: #3f5856;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.page a:hover{
+	background-color: snow;
+}
+
+.page a:last-child{
+	margin-right: 90px;
+}
